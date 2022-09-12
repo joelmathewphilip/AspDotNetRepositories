@@ -3,6 +3,7 @@ using MongoDB.Driver;
 
 namespace Catalog.API.Data
 {
+    //to seed data to the database collection
     public class CatalogContextSeed
     {
         public static void SeedData(IMongoCollection<Product> productCollection)
@@ -82,5 +83,5 @@ namespace Catalog.API.Data
             };
         }
     }
-    }
-}
+ }
+
